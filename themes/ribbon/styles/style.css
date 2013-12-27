@@ -4,11 +4,10 @@
 	Licensed under MIT license: https://github.com/pepelsbey/shower/wiki/License
 */
 
-@import url(fonts.css);
 @import url(reset.css);
 
 BODY {
-	font:25px/1.8 'PT Sans', sans-serif;
+	font:25px/1.8 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 	counter-reset:paging;
 	}
 
@@ -39,7 +38,7 @@ BODY {
 .slide HEADER {
 	margin:0 0 58px;
 	color:#666;
-	font:bold 40px/1.13 'PT Sans Narrow', sans-serif;
+	font:bold 40px/1.13 sans-serif;
 	}
 
 /* Elements */
@@ -93,7 +92,7 @@ BODY {
 	position:absolute;
 	margin:-15px 0 0 -80px;
 	color:#CCC;
-	font:200px/1 'PT Sans', sans-serif;
+	font:200px/1 sans-serif;
 	content:'\201C'; /* ldquo */
 	}
 .slide BLOCKQUOTE:after {
@@ -238,7 +237,7 @@ BODY {
 	text-shadow:0 1px 1px #8D8E90;
 	}
 	.list .caption H1 {
-		font:bold 50px/1 'PT Sans Narrow', sans-serif;
+		font:bold 50px/1 sans-serif;
 		}
 
 /* Slide */
