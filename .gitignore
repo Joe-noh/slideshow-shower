@@ -1,3 +1,5 @@
-# Komodo Project Files
+.DS_Store
 
-*.kpf
+\#*
+~*
+
