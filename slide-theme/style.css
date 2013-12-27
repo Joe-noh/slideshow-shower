@@ -30,7 +30,7 @@ BODY {
 		right:120px;
 		width:40px;
 		height:120px;
-		background:url(../images/ribbon.svg) no-repeat;
+		background:url(./images/ribbon.svg) no-repeat;
 		content:'';
 		}
 
@@ -228,7 +228,7 @@ BODY {
 .list {
 	float:left;
 	padding:80px 0 80px 100px;
-	background:#585A5E url(../images/linen.png);
+	background:#585A5E url(./images/linen.png);
 	}
 
 /* Caption */

@@ -9,6 +9,7 @@
 # author: Your Name Here
 # title: Your Slide Show Title Here
 # cover: Your Slide Show Cover Image Here
+# lang: Your Slide Show Language Here
 #
 # Questions? Comments?
 # Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List.
@@ -16,27 +17,27 @@
 
 __file__.html slides.html.erb
 
-# scripts
 
-scripts/script.js
+# scripts
+slide-theme/script.js
+
 
 # styles
+slide-theme/reset.css
+slide-theme/style.css
 
-themes/ribbon/styles/reset.css
-themes/ribbon/styles/style.css
 
 # graphics
 
 # default cover image
-pictures/cover.jpg
+slide-theme/pictures/cover.jpg
 
-themes/ribbon/images/grid.png
-themes/ribbon/images/linen.png
-themes/ribbon/images/ribbon.svg
+slide-theme/images/grid.png
+slide-theme/images/linen.png
+slide-theme/images/ribbon.svg
 
 # fonts
-
-themes/ribbon/fonts/DroidSansMono.svg
-themes/ribbon/fonts/DroidSansMono.ttf
-themes/ribbon/fonts/TargetBlank.otf
-themes/ribbon/fonts/TargetBlank.svg
+slide-theme/fonts/DroidSansMono.svg
+slide-theme/fonts/DroidSansMono.ttf
+slide-theme/fonts/TargetBlank.otf
+slide-theme/fonts/TargetBlank.svg

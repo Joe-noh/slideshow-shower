@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=1274, user-scalable=no">
 	<meta name="generator" content="Slide Show (S9)">
 	<meta name="author" content="<%= @headers['author']%>">
-	<link rel="stylesheet" href="themes/ribbon/styles/style.css">
+	<link rel="stylesheet" href="slide-theme/style.css">
 	<style>
 		#Cover H2 {
 			color:#FFF;
@@ -27,7 +27,7 @@
 				<h2><%= @headers['title'] %></h2>
 			</header>
 			<% cover = @headers['cover'] == "- cover not found -" ? "cover.jpg" : @headers['cover'] %>
-			<img src="pictures/<%= cover %>" alt="">
+			<img src="slide-theme/pictures/<%= cover %>" alt="">
 			<!-- © John Carey, http://fiftyfootshadows.net/ -->
 		</section>
 	</div></div>
@@ -50,7 +50,7 @@
 		just remove “progress” element.
 		-->
 	<div class="progress"><div></div></div>
-	<script src="scripts/script.js"></script>
+	<script src="slide-theme/script.js"></script>
 	<!-- Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/ -->
 </body>
 </html>
