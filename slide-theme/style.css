@@ -278,7 +278,7 @@ BODY {
 		position:relative;
 		overflow:hidden;
 		width: 512px;
-		height:320px;
+		height:384px;
 		box-shadow:0 0 50px #3C3D40;
 		border-radius:1px;
 		background:rgba(0, 0, 0, 0.3);
