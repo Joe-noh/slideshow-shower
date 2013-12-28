@@ -26,10 +26,10 @@ BODY {
 	.slide SECTION:before {
 		position:absolute;
 		top:0;
-		right:120px;
-		width:40px;
+		right:0;
+		width:120px;
 		height:120px;
-		background:url(./images/ribbon.svg) no-repeat;
+		background:url(./images/taski.svg) no-repeat;
 		content:'';
 		}
 
@@ -119,7 +119,7 @@ BODY {
 		position:absolute;
 		margin-left:-120px;
 		width:100px;
-		color:#BBB;
+		color:rgba(52, 152, 219, 0.7);
 		text-align:right;
 		}
 	.slide UL > LI:before {
@@ -340,7 +340,7 @@ BODY {
 			position:absolute;
 			bottom: 5%;
 			right: 5%;
-			color:#BBB;
+			color:#555;
 			line-height:1;
 			}
 		.full .slide SECTION {
@@ -384,7 +384,7 @@ BODY {
 		width:0;
 		height:10px;
 		border-radius:5px;
-		background:rgba(177, 177, 177, 0.7);
+		background:#3498db;//rgba(177, 177, 177, 0.7);
 		-webkit-transition:width 0.2s ease-out;
 		-moz-transition:width 0.2s ease-out;
 		-ms-transition:width 0.2s ease-out;

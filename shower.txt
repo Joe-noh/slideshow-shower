@@ -30,6 +30,7 @@ slide-theme/style.css
 slide-theme/images/grid.png
 slide-theme/images/linen.png
 slide-theme/images/ribbon.svg
+slide-theme/images/taski.svg
 
 # fonts
 slide-theme/fonts/DroidSansMono.svg
