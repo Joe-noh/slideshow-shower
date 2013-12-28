@@ -14,13 +14,14 @@
 		<h1><%= @headers['title'] %></h1>
 		<p><%= @headers['author']%></p>
 	</header>
-	<div class="slide" id="cover"><div>
-		<section>
-			<header>
-				<h2><%= @headers['title'] %></h2>
-			</header>
-		</section>
-	</div></div>
+	<div class="slide" id="cover">
+    <div>
+      <section>
+	      <h2><%= @headers['title'] %></h2>
+        <h3><%= @headers['author'] %></h3>
+      </section>
+    </div>
+	</div>
 
 <!-- todo: add slide.classes to div -->
 <!-- todo: create slide id from header? like a slug in blogs? -->

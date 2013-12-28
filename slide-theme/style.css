@@ -217,15 +217,23 @@ BODY {
 }
 
 /* Cover */
-#cover {
+#cover h2,
+#cover h3 {
+	color:#666;
+	font-weight: bold;
+  font-family: sans-serif;
   text-align: center;
+  position: absolute;
+  width: 844px;//100%;
 }
 
 #cover h2 {
+  top: 20%;
   font-size: 70px;
 }
 
 #cover h3 {
+  bottom: 20%;
   font-size: 36px;
 }
 
