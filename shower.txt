@@ -8,7 +8,6 @@
 #
 # author: Your Name Here
 # title: Your Slide Show Title Here
-# cover: Your Slide Show Cover Image Here
 # lang: Your Slide Show Language Here
 #
 # Questions? Comments?
@@ -28,10 +27,6 @@ slide-theme/style.css
 
 
 # graphics
-
-# default cover image
-slide-theme/pictures/cover.jpg
-
 slide-theme/images/grid.png
 slide-theme/images/linen.png
 slide-theme/images/ribbon.svg

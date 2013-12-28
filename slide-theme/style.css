@@ -9,19 +9,18 @@
 BODY {
 	font:25px/1.8 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 	counter-reset:paging;
-	}
+}
 
-/* Slide
----------------------------------------- */
+/* Slide ---------------------------------------- */
 .slide:after {
 	counter-increment:paging;
 	content:counter(paging, decimal-leading-zero);
 	}
 .slide SECTION {
-	padding:80px 120px 0;
-	width:784px;
-	height:560px;
-	background:#FFF;
+	padding: 50px 90px 0;
+	width: 844px;
+	height: 718px;
+  background: #FFF;
 	color:#000;
 	}
 	.slide SECTION:before {
@@ -36,7 +35,7 @@ BODY {
 
 /* Header */
 .slide HEADER {
-	margin:0 0 58px;
+	margin:0 0 38px;
 	color:#666;
 	font:bold 40px/1.13 sans-serif;
 	}
@@ -171,21 +170,6 @@ BODY {
 		font-weight:normal;
 		}
 
-/* Background */
-.slide.bg SECTION {
-	background:transparent;
-	}
-	.slide.bg SECTION:before {
-		display:none;
-		}
-.slide.bg IMG {
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:-1;
-	width:100%;
-	}
-
 /* Shout */
 .slide.shout SECTION:before {
 	display:none;
@@ -223,8 +207,37 @@ BODY {
 	transform:translate(-50%, -50%);
 	}
 
-/* List
----------------------------------------- */
+/* Image */
+.slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 75%;
+}
+
+/* Cover */
+#cover {
+  text-align: center;
+}
+
+#cover h2 {
+  font-size: 70px;
+}
+
+#cover h3 {
+  font-size: 36px;
+}
+
+#cover section:before {
+  display: none;
+}
+
+#cover:after {
+  display: none;
+}
+
+/* List ---------------------------------------- */
 .list {
 	float:left;
 	padding:80px 0 80px 100px;
@@ -264,7 +277,7 @@ BODY {
 	.list .slide > DIV {
 		position:relative;
 		overflow:hidden;
-		width:512px;
+		width: 512px;
 		height:320px;
 		box-shadow:0 0 50px #3C3D40;
 		border-radius:1px;
@@ -302,16 +315,15 @@ BODY {
 			content:'';
 			}
 
-/* Full
----------------------------------------- */
+/* Full ---------------------------------------- */
 .full {
 	position:absolute;
 	top:50%;
 	left:50%;
 	overflow:hidden;
-	margin:-320px 0 0 -512px;
-	width:1024px;
-	height:640px;
+	margin: -384px 0 0 -512px;
+	width: 1024px;
+	height: 768px;
 	background:#000;
 	}
 	.full .caption {
@@ -326,8 +338,8 @@ BODY {
 			}
 		.full .slide:after {
 			position:absolute;
-			bottom:85px;
-			left:120px;
+			bottom: 5%;
+			right: 5%;
 			color:#BBB;
 			line-height:1;
 			}
@@ -362,22 +374,22 @@ BODY {
 /* Progress */
 .full .progress {
 	position:absolute;
-	right:118px;
-	bottom:49px;
-	left:118px;
-	border-radius:7px;
-	border:2px solid rgba(255, 255, 255, 0.2);
+	right: 2px;
+	bottom: 0px;
+	left: 2px;
+  border-radius: 5px;
+  border:2px solid rgba(255, 255, 255, 0.7);
 	}
 	.full .progress DIV {
 		width:0;
 		height:10px;
 		border-radius:5px;
-		background:rgba(177, 177, 177, 0.4);
-		-webkit-transition:width 0.2s linear;
-		-moz-transition:width 0.2s linear;
-		-ms-transition:width 0.2s linear;
-		-o-transition:width 0.2s linear;
-		transition:width 0.2s linear;
+		background:rgba(177, 177, 177, 0.7);
+		-webkit-transition:width 0.2s ease-out;
+		-moz-transition:width 0.2s ease-out;
+		-ms-transition:width 0.2s ease-out;
+		-o-transition:width 0.2s ease-out;
+		transition:width 0.2s ease-out;
 		}
 .full .progress-off {
 	z-index:1;
