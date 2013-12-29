@@ -8,6 +8,7 @@
 	<meta name="generator" content="Slide Show (S9)">
 	<meta name="author" content="<%= @headers['author']%>">
 	<link rel="stylesheet" href="slide-theme/style.css">
+  <link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/zenburn.min.css">
 </head>
 <body class="list">
 	<header class="caption">
@@ -23,25 +24,26 @@
     </div>
 	</div>
 
-<!-- todo: add slide.classes to div -->
-<!-- todo: create slide id from header? like a slug in blogs? -->
-<% @slides.each_with_index do |slide,i| %>
-<div class="slide<%= ' ' + slide.classes unless slide.classes.empty? %>" id="<%= (i+2).to_s %>"><div>
+  <!-- todo: add slide.classes to div -->
+  <!-- todo: create slide id from header? like a slug in blogs? -->
+  <% @slides.each_with_index do |slide,i| %>
+  <div class="slide<%= ' ' + slide.classes unless slide.classes.empty? %>" id="<%= (i+2).to_s %>"><div>
 		<section>
 			<header>
 				<%= slide.header %>
 			</header>
 			<%= slide.content_without_header %>
 		</section>
-</div></div>
-<% end %>
+  </div></div>
+  <% end %>
 
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
 		-->
   <div class="progress"><div></div></div>
-	<script src="slide-theme/script.js"></script>
-	<!-- Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/ -->
+	<script src="slide-theme/script.js"></script>	<!-- Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/ -->
+  <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+  <script src="slide-theme/syntax-highlight.js"></script>
 </body>
 </html>

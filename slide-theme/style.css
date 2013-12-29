@@ -75,12 +75,12 @@ BODY {
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#FAFAA2;
-	-webkit-tab-size:4;
-	-moz-tab-size:4;
-	-o-tab-size:4;
-	tab-size:4;
-	font-family:Consolas, 'Droid Sans Mono', monospace;
+	-webkit-tab-size:2;
+	-moz-tab-size:2;
+	-o-tab-size:2;
+	tab-size:2;
+	font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+  line-height: 1.4;
 	}
 
 /* Quote */
@@ -133,6 +133,7 @@ BODY {
 		}
 
 /* Code */
+/*
 .slide PRE {
 	margin:0 0 45px;
 	counter-reset:code;
@@ -169,7 +170,7 @@ BODY {
 		color:#FFF;
 		font-weight:normal;
 		}
-
+*/
 /* Shout */
 .slide.shout SECTION:before {
 	display:none;

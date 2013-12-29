@@ -19,7 +19,7 @@ __file__.html slides.html.erb
 
 # scripts
 slide-theme/script.js
-
+slide-theme/syntax-highlight.js
 
 # styles
 slide-theme/reset.css
