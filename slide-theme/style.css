@@ -247,8 +247,8 @@ BODY {
 	.list .slide > DIV {
 		position:relative;
 		overflow:hidden;
-		width: 512px;
-		height:384px;
+		width: 307px;
+		height: 230px;
 		box-shadow:0 0 50px #3C3D40;
 		border-radius:1px;
 		background:rgba(0, 0, 0, 0.3);
@@ -266,15 +266,15 @@ BODY {
 		}
 	.list .slide SECTION {
 		-webkit-transform-origin:0 0;
-		-webkit-transform:scale(0.5);
+		-webkit-transform:scale(0.3);
 		-moz-transform-origin:0 0;
-		-moz-transform:scale(0.5);
+		-moz-transform:scale(0.3);
 		-ms-transform-origin:0 0;
-		-ms-transform:scale(0.5);
+		-ms-transform:scale(0.3);
 		-o-transform-origin:0 0;
-		-o-transform:scale(0.5);
+		-o-transform:scale(0.3);
 		transform-origin:0 0;
-		transform:scale(0.5);
+		transform:scale(0.3);
 		}
 		.list .slide SECTION:after {
 			position:absolute;
