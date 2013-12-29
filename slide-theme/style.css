@@ -132,45 +132,6 @@ BODY {
 		content:counter(list)'.';
 		}
 
-/* Code */
-/*
-.slide PRE {
-	margin:0 0 45px;
-	counter-reset:code;
-	white-space:normal;
-	}
-	.slide PRE CODE {
-		display:block;
-		padding:0;
-		background:none;
-		white-space:pre;
-		}
-	.slide PRE CODE:before {
-		position:absolute;
-		margin:0 0 0 -120px;
-		width:110px;
-		color:#BBB;
-		text-align:right;
-		counter-increment:code;
-		content:counter(code, decimal-leading-zero)'.';
-		}
-	.slide PRE MARK {
-		padding:3px 8px;
-		-webkit-border-radius:8px;
-		-moz-border-radius:8px;
-		border-radius:8px;
-		}
-	.slide PRE MARK {
-		background:#FAFAA2;
-		color:#000;
-		font-style:normal;
-		}
-	.slide PRE MARK.important {
-		background:#C00;
-		color:#FFF;
-		font-weight:normal;
-		}
-*/
 /* Shout */
 .slide.shout SECTION:before {
 	display:none;
