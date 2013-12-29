@@ -9,6 +9,7 @@
 # author: Your Name Here
 # title: Your Slide Show Title Here
 # lang: Your Slide Show Language Here
+# syntax-theme: tommorow-night-eighties
 #
 # Questions? Comments?
 # Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List.
@@ -33,7 +34,5 @@ slide-theme/images/ribbon.svg
 slide-theme/images/taski.svg
 
 # fonts
-slide-theme/fonts/DroidSansMono.svg
-slide-theme/fonts/DroidSansMono.ttf
 slide-theme/fonts/TargetBlank.otf
 slide-theme/fonts/TargetBlank.svg

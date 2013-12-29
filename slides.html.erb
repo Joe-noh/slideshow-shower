@@ -8,7 +8,8 @@
 	<meta name="generator" content="Slide Show (S9)">
 	<meta name="author" content="<%= @headers['author']%>">
 	<link rel="stylesheet" href="slide-theme/style.css">
-  <link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/zenburn.min.css">
+  <% theme = (@headers['syntax-theme'] == "- syntax-theme not found -") ? "default" : @headers['syntax-theme'] %>
+  <link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/<%= theme %>.min.css">
 </head>
 <body class="list">
 	<header class="caption">
